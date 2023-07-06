@@ -1,6 +1,6 @@
 <template>
   <div class="weather-widget" :class="{ loading: !weatherData }">
-    <h2 class="widget-title">Weather Widget</h2>
+    <h2 class="widget-title">Widget Cuaca</h2>
     <div class="location-input">
       <label for="location">Enter Location:</label>
       <input type="text" id="location" v-model="location" />

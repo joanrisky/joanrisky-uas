@@ -1,6 +1,6 @@
 <template>
   <div class="location-widget">
-    <h2>Your Location</h2>
+    <h2>Lokasi Anda</h2>
     <div v-if="latitude && longitude">
       <p>Latitude: {{ latitude }}</p>
       <p>Longitude: {{ longitude }}</p>
